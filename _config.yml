@@ -1,32 +1,28 @@
-# Welcome to Agency Jekyll Theme!
-
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-
+---
 title: Transform Tutoring
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: contact@transformtutoring.org
-description: > # this means to ignore newlines until "author:"
-  Bay Area tutoring including SAT & ACT tutoring, math tutoring, writing tutoring, english tutoring, and college admissions counseling. 
+description: "Bay Area tutoring including SAT & ACT tutoring, math tutoring, writing
+  tutoring, english tutoring, and college admissions counseling. \n"
 author: transformtutoring
 keyword: jekyll
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  na
-
-# Build settings
-
+baseurl: ''
+url: ''
+github_username: na
 markdown: kramdown
-
-#theme: agency-jekyll-theme #The "agency-jekyll-theme" is not supported by GitHub Pages. 
-
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - agency-jekyll-theme.gemspec
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - screenshot.png
+- agency-jekyll-theme.gemspec
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- screenshot.png
